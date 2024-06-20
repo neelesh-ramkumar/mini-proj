@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Mobile Recharge Portal</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Mobile Recharge</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#recharge">Recharge</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="home" class="container mt-5">
+    <h1>Welcome to Online Mobile Recharge Portal</h1>
+    <p>Recharge your mobile easily and quickly.</p>
+  </div>
+
+  <div id="recharge" class="container mt-5">
+    <h2>Mobile Recharge</h2>
+    <form id="rechargeForm">
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="text" class="form-control" id="phone" required>
+      </div>
+      <div class="form-group">
+        <label for="amount">Amount</label>
+        <input type="number" class="form-control" id="amount" required>
+      </div>
+      <button type="submit" class="btn btn-success">Recharge</button>
+    </form>
+  </div>
+  
+  <div id="contact" class="container mt-5">
+    <h2>Contact Us</h2>
+    <p>If you have any questions, please contact us at support@mobilerecharge.com.</p>
+  </div>
+
+  <footer class="bg-light text-center mt-5 py-3">
+    &copy; 2024 Online Mobile Recharge Portal. All rights reserved.
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
